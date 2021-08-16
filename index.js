@@ -290,10 +290,10 @@ async function executeSQL(sql, params){
 function dbConnection(){
    const pool  = mysql.createPool({
       connectionLimit: 10,
-      host:  "pxukqohrckdfo4ty.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", // your_hostname
-      user: "yerg62ky3ijxmlhe", // your_username
-      password: "kwd7olxgqycc9jgt", // your_password
-      database: "j1bkbf4erh116qmn"// your_database
+      host:  "{HOST}", // your_hostname
+      user: "{USERNAME}", // your_username
+      password: "{PASSWORD}", // your_password
+      database: "{Database}"// your_database
    }); 
    return pool;
 }
