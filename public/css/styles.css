@@ -1,0 +1,229 @@
+body {
+  text-align: center;
+  background-color: rgb(146, 175, 187);
+}
+
+#searchRadio {
+  color:seashell;
+}
+
+#logo{
+  width: 45px;
+}
+
+#loginLogo{
+  width: 200px;
+}
+
+#loginPage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sortBlock {
+  background-color: rgb(120, 131, 153);
+  border: 2px black solid;
+  padding: 2px;
+}
+
+.login {
+  background-color: rgb(120, 131, 153);
+  border: 2px black solid;
+  padding: 20px;
+}
+
+.imgBox {
+  padding: 2px;
+  flex-grow: 1;
+  height: 455px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgBox img {
+  text-align: center;
+}
+
+.movieBox {
+  background-color: rgb(124, 136, 160);
+  border: 2px black solid;
+  padding: 5px;
+/*
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  width: 75%;
+
+  border: 2px black solid;
+*/
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.movieInfoBox {
+  padding: 5px;
+  /*
+  flex-grow: 2;
+  flex:1;
+  */
+}
+
+.movieTitleText {
+  font-size: 32px;
+  text-align: center;
+}
+
+.movieDescText {
+  font-size: 27px;
+  text-align: center;
+}
+
+.reviewSingle {
+  border: 2px black solid;
+}
+
+#requestList {
+  background-color: lightblue;
+  height: 100px;
+  overflow: auto;
+  width: 75%;
+}
+
+#requestForm {
+  background-color: rgb(120, 131, 153);
+  border: 2px black solid;
+  padding: 20px;
+}
+
+#settingsBox {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: space-around;
+  justify-content: space-around;
+  width: 30%;
+  padding: 5px;
+  border: 2px black solid;
+}
+
+#settingsBox a {
+  padding: 5px 100px;
+  background-color: lightcoral;
+  color:seashell;
+  text-align: center;
+  font-size: 25px;
+  border: 2px black solid;
+}
+
+#movieReviewsAll {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.allReviewsLink {
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.allReviewsLink:hover {
+  color: red;
+}
+
+footer {
+  font-family:fantasy;
+  text-align: center;
+  padding: 5px 100px;
+  background-color: brown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.push {
+  height:50px;
+}
+
+.login {
+  width: 30%;
+}
+
+.rating:hover > span:before {
+  color:rgb(180, 180, 177);
+}
+
+.bi-trash {
+  color: rgb(17, 15, 5);
+  font-size: 2rem;
+}
+
+.bi-trash:hover {
+  color: rgb(180, 180, 177);
+}
+
+.bi-trash-fill {
+  color: rgb(180, 180, 177);
+  font-size: 2rem;
+}
+
+.bi-trash-fill:hover {
+   color: rgb(180, 180, 177);
+}
+
+textarea {
+  height:200px;
+}
+
+/* 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ background-color:seashell;
+ text-align: center;
+}
+
+nav a {
+  padding: 5px 100px;
+  background-color: lightcoral;
+  color:seashell;
+  text-align: center;
+  font-size: 25px;
+} 
+*/
+
+            /*Code to change color of active link*/
+        #topheader .navbar-nav li > a {
+            text-transform: capitalize;
+            color: #333;
+            -webkit-transition: background-color .2s, color .2s;
+            transition: background-color .2s, color .2s;
+        }
+        #topheader .navbar-nav li > a:hover, 
+        #topheader .navbar-nav li > a:focus {
+            background-color: #005596;
+            color: #fff;
+        }
+        #topheader .navbar-nav li.active > a {
+            background-color: #3990E0;
+            color: white;
+        }
